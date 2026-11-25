@@ -1,0 +1,39 @@
+/* DracoFix - Paleta definitiva
+   Fondo: #0B0C10 | Tarjetas: #1F2833 | Texto: #FFFFFF / #C5C6C7
+   Cian: #00B4D8 | Rosa acción: #F72585 | Amarillo: #FFD166 */
+:root {
+  --bg-space-dark: #0B0C10;
+  --bg-card-dark: #1F2833;
+  --text-main: #FFFFFF;
+  --text-muted: #C5C6C7;
+  --accent-cyan: #00B4D8;
+  --accent-pink: #F72585;
+  --accent-pink-hover: #d61a6f;
+  --accent-yellow: #FFD166;
+}
+body { background-color: var(--bg-space-dark); color: var(--text-main); font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+.navbar-draco { background-color: rgba(11,12,16,0.95) !important; border-bottom: 2px solid var(--accent-pink); }
+.navbar-draco .navbar-brand, .navbar-draco .nav-link { color: var(--text-main) !important; }
+.navbar-draco .nav-link.active, .navbar-draco .nav-link:hover { color: var(--accent-pink) !important; }
+.hero-bg { background-color: var(--bg-space-dark) !important; background: radial-gradient(circle at 50% 0%, rgba(247,37,133,0.15), transparent 60%), var(--bg-space-dark); }
+.hero-subtitle { color: var(--text-muted); font-size: 1.15rem; line-height: 1.6; margin-top: 1.5rem; margin-bottom: 2.5rem; max-width: 650px; margin-left: auto; margin-right: auto; }
+.text-pink { color: var(--accent-pink) !important; }
+.text-yellow { color: var(--accent-yellow) !important; }
+.text-cyan { color: var(--accent-cyan) !important; }
+.btn-draco-primary { background-color: var(--accent-pink); color: #FFFFFF !important; border: none; padding: 12px 28px; font-weight: 600; border-radius: 8px; box-shadow: 0 0 15px rgba(247,37,133,0.4); transition: all 0.3s ease; }
+.btn-draco-primary:hover { background-color: var(--accent-pink-hover); box-shadow: 0 0 25px rgba(247,37,133,0.7); transform: translateY(-2px); color: #FFFFFF !important; }
+.btn-draco-secondary { border: 1px solid rgba(255,255,255,0.3); color: #FFFFFF !important; padding: 12px 28px; font-weight: 500; border-radius: 8px; transition: all 0.3s ease; background: transparent; }
+.btn-draco-secondary:hover { border-color: var(--accent-cyan); color: var(--accent-cyan) !important; }
+.card-draco { background-color: var(--bg-card-dark); border: 1px solid rgba(255,255,255,0.05); border-radius: 12px; color: var(--text-main); transition: all 0.3s ease; height: 100%; }
+.card-draco:hover { transform: translateY(-5px); border-color: var(--accent-pink); }
+.card-draco .text-muted, .card-draco p { color: var(--text-muted) !important; }
+.card-draco h2, .card-draco h3, .card-draco h5 { color: var(--text-main); }
+.badge-star { background-color: rgba(255,209,102,0.15); color: var(--accent-yellow); border: 1px solid var(--accent-yellow); }
+.section-light { background-color: var(--bg-card-dark); }
+.footer-draco { background-color: var(--bg-space-dark); border-top: 2px solid var(--accent-pink); }
+.feature-draco { background: var(--accent-pink); }
+
+/* Logo Draco (mascota) */
+.logo-draco-hero { width: 180px; height: 180px; object-fit: cover; border-radius: 50%; border: 3px solid var(--accent-pink); box-shadow: 0 0 30px rgba(247,37,133,0.55), 0 0 60px rgba(0,180,216,0.25); margin-bottom: 1.5rem; }
+.logo-draco-nav { width: 38px; height: 38px; object-fit: cover; border-radius: 50%; border: 2px solid var(--accent-pink); vertical-align: middle; margin-right: 8px; }
+.logo-draco-inline { width: 28px; height: 28px; object-fit: cover; border-radius: 50%; vertical-align: -7px; margin-right: 6px; }
